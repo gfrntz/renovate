@@ -151,7 +151,8 @@ export type UpdateType =
   | 'lockFileMaintenance'
   | 'lockfileUpdate'
   | 'rollback'
-  | 'bump';
+  | 'bump'
+  | 'replacement';
 
 // TODO: Proper typings
 export interface PackageRule
